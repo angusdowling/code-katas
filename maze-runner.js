@@ -1,5 +1,5 @@
 /**
-* Sum of Odd Numbers
+* Maze Runner
 * 
 * You will be given a 2D array of the maze and an array of directions.
 * Your task is to follow the directions given.
