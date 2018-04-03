@@ -18,16 +18,16 @@
 function wave(str){
     let o = []
   
-  for(let i = 0; i < str.split("").length; i++){
-    let s = str.split("");
-     
-    if(s[i] !== " ") {
-        let l = s.splice(i, 1, s[i].toUpperCase()).join("");
-        let w = s.join("");
+    for(let i = 0; i < str.split("").length; i++){
+        let s = str.split("");
         
-        o.push(w);
+        if(s[i] !== " ") {
+            let l = s.splice(i, 1, s[i].toUpperCase()).join("");
+            let w = s.join("");
+            
+            o.push(w);
+        }
     }
-}
   
     return o;
 }
